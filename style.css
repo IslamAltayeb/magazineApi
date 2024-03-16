@@ -1,0 +1,81 @@
+/* global prop */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dark-color: #19283f;       
+    --section-color: #eff7fa;
+    --red-color:  #ff3150;
+    --yellow-color:#ffc400;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(./imgs/bk.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* start the main section */
+.dive {
+    background-color: var(--dark-color);
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 2em;    
+    border-radius: 1em;    
+}
+
+.dive h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 2em;
+    border: 2px solid var(--section-color);
+    border-radius: 15px;
+    padding: 10px;
+    color: var(--section-color);
+}
+
+.dive h4{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--section-color);
+}
+
+@media(max-width: 767px){
+    .dive h4{
+        font-size: 14px;
+    }    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--section-color);
+    border: 1px solid var(--section-color);
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: var(--yellow-color);
+    transition: .5s;
+}
+/* end the main section */

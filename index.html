@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine</title>
+    <link rel="icon" href="imgs/logo.png">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./pages/pagestyle.css">
+     <!-- functionality sheet -->
+     <script src="./pages/news.js" defer></script>     
+     <script src="./pages/gitHub.js" defer></script>
+     <script src="./pages/books.js" defer></script>
+     
+</head>
+<body>
+  <!-- start header section -->
+    <div class="dive">
+    <h1>Dive Into The Best Magazine</h1>
+    <h4> Search for different kinds of data across multiple APIs, from news to git-hub users and books.</h4>
+    <ul class="api-list">
+      <li><a href="#" id="news-link">News</a></li>    
+      <li><a href="#" id="git-Hub">Git-Hub</a></li>
+      <li><a href="#" id="book">Books</a></li>
+    </ul>
+  </div>
+  <!-- end header section -->   
+  
+  <!-- start news search -->
+   <!-- start Search area -->
+   <div class="container hidden-news" id="news-area">
+    <h1>Take A Look For The Most Important News!</h1>
+    <div class="search-container">
+      <input type="text" placeholder="Search for news" id="search-news-input" />
+      <button id="news-submit">Search</button>
+    </div>
+    <!-- end Search area -->
+    
+    <!-- output area -->
+    <div id="news-output"></div>
+  </div>
+<!-- end news search -->
+
+  <!-- start git-gub search -->
+   <!-- start Search area -->
+   <div class="container hidden-git" id="git-area">
+    <h1>Search for git-hub user!</h1>
+    <div class="search-container">
+      <input type="text" placeholder="Search for git-Hub user" id="search-git-input" />
+      <button id="git-submit">Search</button>
+    </div>   
+   <!-- end Search area -->
+    
+    <!-- output area -->
+    <div id="git-output"></div>
+  </div> 
+  <!-- end git-hub search -->
+
+  <!-- start book search -->
+   <!-- start Search area -->
+  <div class="container hidden-book" id="books-area">
+    <h1>Get all information about your favorite book!</h1>
+    <div class="search-container">
+      <input type="text" placeholder="Enter a book name..." id="search-book-input" />
+      <button id="submit">Search</button>
+    </div>
+   <!-- end Search area -->
+    
+    <!-- output area -->
+    <div id="output"></div>
+  </div>
+  <!-- end book search -->
+    
+</body>
+</html>
