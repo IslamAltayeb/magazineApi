@@ -38,4 +38,5 @@ Magazine is a versatile web application built with vanilla JavaScript, HTML, and
 
 Contributions are welcome! If you have any ideas for improvements or new features, feel free to submit a pull request.
 
-
+## to try it 
+https://islamaltayeb.github.io/magazineApi/
